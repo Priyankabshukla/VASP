@@ -1,0 +1,23 @@
+PREC = A
+ALGO = N
+EDIFF = 1e-4
+NELMIN = 5
+NELM = 200
+ISIF = 2
+GGA = PE
+IVDW = 12
+ISMEAR = 0
+SIGMA = 0.05
+KSPACING = 0.5
+KGAMMA = .FALSE.
+NCORE = 48
+LCHARG = .FALSE.
+LWAVE = .FALSE. #this prevents wavecar from writing out
+#molecular dynamics parameters
+IBRION = 0
+MDALGO = 2
+NSW = 10000
+TEBEG = 2000
+TEEND = 2000
+POTIM = 0.25
+SMASS = 0
